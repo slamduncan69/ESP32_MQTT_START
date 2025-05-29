@@ -5,7 +5,9 @@ Repo for ESP32-based start button to interface with M3 for EscapeWorks Denver
 This program was developed for the ESP32 DEVKIT1. Please see the attached devkit1_pinout.jpg as a reference. Please attach the wires as follows:
 
 GND: Connect to one terminal of the switch, and one terminal of the LED.
+
 GPIO2: Connect to one terminal of the LED.
+
 GPIO4: Connect to one terminal of the switch.
 
 The button by default is set to publish the topic "M3/Stories/TE/State" with the payload of "Start", but these values can be changed in the definition section of the code from lines 6-11.
